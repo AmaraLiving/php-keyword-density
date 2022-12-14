@@ -1,9 +1,8 @@
 # PHP Keyword Density, Word Frequency
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/masroore/keyword-density.svg?style=flat-square)](https://packagist.org/packages/masroore/keyword-density)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/masroore/php-keyword-density/run-tests?label=tests)](https://github.com/masroore/keyword-density/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/masroore/php-keyword-density/Check%20&%20fix%20styling?label=code%20style)](https://github.com/masroore/php-keyword-density/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/masroore/keyword-density.svg?style=flat-square)](https://packagist.org/packages/masroore/keyword-density)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amara/keyword-density.svg?style=flat-square)](https://packagist.org/packages/amara/keyword-density)
+[![Build](https://github.com/AmaraLiving/php-keyword-density/actions/workflows/ci-build.yml/badge.svg)](https://github.com/AmaraLiving/php-keyword-density/actions/workflows/ci-build.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/amara/keyword-density.svg?style=flat-square)](https://packagist.org/packages/amara/keyword-density)
 
 Calculates the keyword density of a text as described in [Wikipedia](https://en.wikipedia.org/wiki/Keyword_density). Counts the frequency usage of each word in a text.
 
