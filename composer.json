@@ -1,5 +1,5 @@
 {
-    "name": "masroore/keyword-density",
+    "name": "amara/keyword-density",
     "description": "Keyword density analyzer. Word frequency counter.",
     "keywords": [
         "word frequency",
@@ -15,7 +15,7 @@
         "text",
         "html"
     ],
-    "homepage": "https://github.com/masroore/php-keyword-density",
+    "homepage": "https://github.com/AmaraLiving/php-keyword-density",
     "license": "MIT",
     "authors": [
         {
@@ -30,7 +30,7 @@
         "masroore/stopwords": "^1.0",
         "soundasleep/html2text": "^2.0",
         "voku/portable-utf8": "^6.0",
-        "writecrow/lemmatizer": "dev-master"
+        "writecrow/lemmatizer": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
@@ -70,9 +70,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "1.x-dev"
+            "dev-develop": "2.x-dev"
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
