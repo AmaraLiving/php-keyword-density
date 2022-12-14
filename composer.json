@@ -1,5 +1,5 @@
 {
-    "name": "masroore/keyword-density",
+    "name": "amara/keyword-density",
     "description": "Keyword density analyzer. Word frequency counter.",
     "keywords": [
         "word frequency",
@@ -15,7 +15,7 @@
         "text",
         "html"
     ],
-    "homepage": "https://github.com/masroore/php-keyword-density",
+    "homepage": "https://github.com/AmaraLiving/php-keyword-density",
     "license": "MIT",
     "authors": [
         {
@@ -26,23 +26,14 @@
     ],
     "require": {
         "php": "^8.0 || ^8.1",
+        "amara/lemmatizer": "^1.0",
         "masroore/php-stemmer": "^3.0",
         "masroore/stopwords": "^1.0",
         "soundasleep/html2text": "^2.0",
-        "voku/portable-utf8": "^6.0",
-        "writecrow/lemmatizer": "dev-master"
+        "voku/portable-utf8": "^6.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.8",
-        "nunomaduro/collision": "^6.0",
-        "nunomaduro/larastan": "^2.0.1",
-        "orchestra/testbench": "^7.0",
-        "pestphp/pest": "^1.21",
-        "pestphp/pest-plugin-laravel": "^1.1",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5"
+        "friendsofphp/php-cs-fixer": "^3.8"
     },
     "autoload": {
         "psr-4": {
@@ -70,9 +61,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "1.x-dev"
+            "dev-master": "2.x-dev"
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
