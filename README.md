@@ -15,7 +15,7 @@ Keyword density is the percentage of times a keyword or phrase appears on a text
 You can install the package via composer:
 
 ```bash
-composer require masroore/keyword-density
+composer require amara/keyword-density
 ```
 
 ## Usage
